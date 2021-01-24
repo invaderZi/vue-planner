@@ -1,0 +1,16 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Create something",
+      "details": "loren ipsdishdia asdhFfjoijiodfjfo ",
+      "complete": false
+    },
+    {
+      "id": 2,
+      "title": "Create 2",
+      "details": "loren ipsdishdia asdhFfjoijiodfjfo ",
+      "complete": true
+    }
+  ]
+}
