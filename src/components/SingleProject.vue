@@ -3,9 +3,11 @@
     <div class="actions" @click="showDetails">
       <h3>{{ project.title }}</h3>
       <div class="icons">
-        <span class="material-icons">
-          edit
-        </span>
+        <router-link :to="{ name: 'EditProject', params: { id: project.id } }">
+          <span class="material-icons">
+            edit
+          </span>
+        </router-link>
         <span @click="deleteProject" class="material-icons">
           delete
         </span>
