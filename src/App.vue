@@ -1,12 +1,21 @@
 <template>
-
-  <router-view/>
+  <v-app>
+    <Navbar />
+    <router-view />
+  </v-app>
 </template>
 
+<script>
+import Navbar from "./components/Navbar";
+export default {
+  components: {
+    Navbar,
+  },
+};
+</script>
+
 <style>
-
-
-body{
+body {
   background: #f2f2f2;
 }
 #app {
@@ -17,5 +26,4 @@ body{
   max-width: 600px;
   margin: 0 auto;
 }
-
 </style>
